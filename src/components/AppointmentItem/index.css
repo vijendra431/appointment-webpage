@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: #b5b7c4;
+  border-radius: 10px;
+  padding: 16px;
+  height: fit-content;
+  width: 25vw;
+}
+
+.search-star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star-images {
+  height: 40px;
+  width: 40px;
+}
+.name {
+  color: #171f46;
+  font-weight: bold;
+  font-family: Bree Serif;
+  padding-bottom: 10px;
+}
+.date {
+  color: #b5b7c4;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 576px) {
+  .container2 {
+    width: 80vw;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .list-items {
+    display: flex;
+    flex-direction: column;
+  }
+}

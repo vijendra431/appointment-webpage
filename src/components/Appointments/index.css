@@ -1,0 +1,119 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.appointment-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 90vw;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rows-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  color: #171f46;
+  font-family: Bree Serif;
+  font-weight: bold;
+}
+
+.card1 {
+  color: #b5b7c4;
+  font-weight: bold;
+  font-family: Bree Serif;
+  width: 45vw;
+}
+
+.image-container {
+  width: 45vw;
+}
+
+.input {
+  padding: 10px;
+  border-color: #b5b7c4;
+  border-radius: 5px;
+  border-style: solid;
+  width: 300px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.line {
+  border-width: 1px;
+  border-color: #b5b7c4;
+  margin: 20px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  color: #8b5cf6;
+  border-style: solid;
+  border-color: #8b5cf6;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.appointment-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-filter {
+  padding: 10px;
+  font-weight: bold;
+  font-family: Bree Serif;
+  border-radius: 10px;
+  outline: none;
+  border-style: solid;
+  border-color: black;
+  width: 200px;
+}
+@media screen and (max-width: 576px) {
+  .image-container {
+    display: none;
+  }
+  .appointment-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input {
+    width: 250px;
+  }
+  .heading {
+    font-size: 17px;
+  }
+}
