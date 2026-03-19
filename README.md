@@ -6,7 +6,7 @@ A simple and interactive **Appointments Management Application** built using Rea
 
 ## 🚀 Live Demo
 
-(👉 Add your deployed link here — Netlify / Vercel)
+(👉 Add your deployed link here — appointments-webpage.netlify.app)
 
 ---
 
